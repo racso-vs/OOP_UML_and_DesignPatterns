@@ -1,5 +1,5 @@
 # OOP_DesignPatterns
-
+```mermaid
 classDiagram
     class PaymentProcessor {
         <<interface>>
@@ -27,3 +27,4 @@ classDiagram
     PaymentProcessor <|.. BankTransferProcessor : Implements
     PaymentProcessor <|.. PayPalProcessor : Implements
     PaymentFactory --> PaymentProcessor : Creates and Returns
+```
